@@ -15,4 +15,7 @@ Area` as that does not apply particularly well to a point and would ideally be h
 * Water Feature - lakes, rivers, and such, do want
 
 Some entries, such as forces bases and the great lakes, have an English and a French entry on top of each
-other. There doesn't seem to be a good way to distinguish between the two from the names database itself.
+other. There doesn't seem to be a good way to distinguish between the two from the names database itself.  The
+[*english.py*](english.py) python code in this directory will go through the *cgn_on_shp_eng.shp* shape file and
+drop all but the most English (as measured by the probability of being English vs French as computed by the NLTK
+TextCat classifier) of all entries with a common geometry. This seems to work well in practice.
