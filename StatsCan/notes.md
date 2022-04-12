@@ -1,10 +1,7 @@
-ghy_000h11a_e.zip
-  ghy_000h11a_e.shp  -- costal waters (great lakes)
-ghy_000c11a_e.zip
-  ghy_000c11a_e.shp  -- rivers and lakes
-gpc_000b11a_e.zip
-  gpc_000b11a_e.shp  -- population centres
-gdpl000b11a_e.zip
-  gdpl000b11a_e.shp  -- designated place
-gpr_000b11a_e.zip
-  gpr_000b11a_e.shp  -- provinces
+stats can: g {dpl,hy_,pc_,pr_} 000 {b,c,h} 11 a _e
+
+* gdpl000b11a_e - designated places
+* ghy_000c11a_e - interior rivers and lakes
+* ghy_000h11a_e - great lakes, st lawrence river, and oceans
+* gpc_000b11a_e - urban areas
+* gpr_000b11a_e - provinces
