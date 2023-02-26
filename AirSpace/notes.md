@@ -1,6 +1,10 @@
-Download latest airspace file (note these do not seem to properly handle
-cases where the space follows some boundary like the US boarder)
+Download latest airspace file
 
-http://soaringweb.org/Airspace/NA/canadian_airspace_273.air
+https://airspace.canadarasp.com/
+http://soaringweb.org/Airspace/NA/HomePage.html
+https://soaringweb.org/Airspace/NA/HomePage.html
 
-ogr2ogr airspace.shp canadian_airspace_273.air
+Convert with an older gdal (driver has been moved to
+[gdal-extra-drivers](https://github.com/OSGeo/gdal-extra-drivers) since release 3.3)
+
+ogr2ogr airspace.shp CanAirspace300all.txt
